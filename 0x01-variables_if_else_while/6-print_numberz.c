@@ -8,15 +8,14 @@
  * printf or putchar - To display
  * Return: Succes is 0
 */
-
 int main(void)
 {
-	int ch;
+int ch;
 
-	for (ch = 48; ch <= 57; ch++)
-	{
-	putchar(ch);
-	}
-	putchar(10);
-	return (0);
-}	
+for (ch = 48; ch <= 57; ch++)
+{
+putchar(ch);
+}
+putchar(10);
+return (0);
+}
