@@ -2,17 +2,20 @@
 
 /**
  * print_last_digit - A function declaration to print the last digit of a numb
- * @n: Contains passed argument
+ * @r: Contains passed argument
  * Return: returns the last digit and exit
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-int x;
+int n;
 
-if (n < 0)
-n = -n;
-x = n % 10;
-_putchar(x + '0');
-return (x);
+if (r < 0)
+n = -1 * (r % 10);
+else
+n = r % 10;
+
+_putchar((n % 10) + '0');
+
+return (n % 10);
 }
