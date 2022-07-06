@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - function that prints if integer is +ve or -ve
@@ -9,10 +7,10 @@
 
 int main(void)
 {
-	int i;
+int i;
 
-	i = 0;
-	positive_or_negative(i);
+i = 0;
+positive_or_negative(i);
 
-	return (0);
+return (0);
 }
