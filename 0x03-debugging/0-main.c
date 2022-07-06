@@ -1,17 +1,18 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * positive_or_negative - function that prints if integer is +ve or -ve
- * @i: character argument
+ * main - function that prints if integer is +ve or -ve
  * Return: 0
  */
 
-void positive_or_negative(int i)
+int main(void)
 {
 	int i;
 
 	i = 0;
 	positive_or_negative(i);
 
-
+	return (0);
 }
