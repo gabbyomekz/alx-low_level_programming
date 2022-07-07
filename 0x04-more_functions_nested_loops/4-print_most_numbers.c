@@ -14,8 +14,7 @@ char m;
 
 for (m = 0; m < 10; m++)
 {
-if (m == 2 && m == 4)
-continue;
+if (m != 2 && m != 4)
 _putchar('0' + m);
 }
 _putchar('\n');
