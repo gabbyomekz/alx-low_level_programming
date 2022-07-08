@@ -33,11 +33,11 @@ printf("%d", n);
 }
 if (n != 100)
 {
-printf(' ');
+putchar(' ');
 }
 n++;
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
 
