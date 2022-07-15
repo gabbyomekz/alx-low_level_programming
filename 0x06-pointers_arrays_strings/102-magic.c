@@ -9,14 +9,14 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
-* main - Function to perform the task
+* main -> Function to print 98/n.
 * Remember:
 * @n: variable n
 * @a: array holding 5 integers
 * @p: a pointer of type int
 * Return: 0 for success
 */
-p[5] = 98;
+*(p + 5) = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
