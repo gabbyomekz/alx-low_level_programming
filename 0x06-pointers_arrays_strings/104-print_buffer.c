@@ -47,3 +47,4 @@ printf("%c", c);
 printf("\n");
 o += 10;
 }
+}
