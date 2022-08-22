@@ -1,7 +1,3 @@
-Skip to content
-biyiemmy
-/
-alx-low_16 lines (13 sloc)  376 Bytes
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
